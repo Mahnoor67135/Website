@@ -1,0 +1,74 @@
+<style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .login{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .forms, .forms-enter{
+                align-items: center;
+                padding: 80px;
+            }
+            input[type=text], input[type=password]{
+                width: 160%;
+                border: 2px solid dodgerblue;
+                padding: 12px 20px;
+                border-radius: 15px;
+                
+                
+            }
+            input[type=text]:hover{
+            
+                background-color: #f1f1f1;
+                 
+            }
+            .icon{
+                font-size: 100px;
+                text-align: center;
+                color: dodgerblue;
+            }
+            .style{
+                background-color: #f1f1f1;
+                overflow: auto;
+                padding: 70px;
+            }
+            .footer{
+                padding: 20px;
+                text-align: center;
+                background-color: dodgerblue;
+                opacity: 0.8;
+            }
+            .footer a{
+                text-decoration: none;
+                padding: 20px;
+                color: aliceblue;
+            }
+            .footer a:hover{
+                font-size: 25px;
+                text-decoration: underline;
+            }
+            .btn{
+                width: 170%;
+                height: 30px;
+                background-color: dodgerblue;
+                padding: 12px 10px;
+                border-radius: 15px;
+                text-align: center;
+                margin: 10px;
+            }
+            .btn a{
+                color: aliceblue;
+                text-decoration: none;
+            }
+            .btn:hover{
+                opacity: 0.5;
+            }
+            .btn a:hover{
+                text-decoration: underline;
+            }
+</style>

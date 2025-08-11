@@ -1,0 +1,133 @@
+       
+       <style>
+*{
+                box-sizing: border-box;
+            }
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .navbar{
+             display: flex;
+             justify-content: space-between;
+             background-color: dodgerblue;
+            }
+            .logo{
+                padding: 10px;
+                font-size: 35px;
+            }
+            .options a{
+                 
+                 padding: 5px;
+                 font-size: 20px;
+                 text-decoration: none;
+                 color: white;
+            }
+            .options{
+                padding: 20px;
+            }
+            .options a:hover{
+                color: #f1f1f1;
+                text-decoration: underline;
+                font-size: 20px;
+            }
+            .fa-house, .fa-user, .fa-gear, .fa-user-group{
+                padding: 5px;
+                margin: 5px;
+                color: white;
+            }
+            .nav, .logo-bar{
+                margin: 20px;
+            }
+            .icon{
+             
+                float: left;
+                padding-right: 30px;
+                color: gray;
+                
+
+            }
+            
+
+         /* .navbar{
+             display: flex;
+             justify-content: space-between;
+             background-color: dodgerblue;
+            }
+            .logo{
+                padding: 10px;
+                font-size: 35px;
+                color: white;
+                margin: 10px;
+            }
+            .options a{
+                 
+                 padding: 5px;
+                 font-size: 20px;
+                 text-decoration: none;
+                 color: white;
+            }
+            .options{
+                padding: 20px;
+            }
+            .options a:hover{
+                color: #f1f1f1;
+                text-decoration: underline;
+            }
+            .fa-house, .fa-user, .fa-gear, .fa-user-group{
+                padding: 5px;
+                margin: 5px;
+                color: white;
+            }
+            .nav, .logo-bar{
+                margin: 20px;
+            }*/
+           .stories {
+            display: inline-block;
+            padding: 8px;
+            background-color: white;
+        
+           }
+           .stories img{
+            border-radius: 20px;
+            box-shadow: 1px 2px 2px 2px black;
+            padding: 8px;
+           }
+           .desc{
+            border-radius: 15px;
+            text-align: center;
+            
+            padding: 2px;
+            margin-top: 10px;
+            font-weight: bold;
+           }
+          .post{
+            padding: 10px;
+            float: left;
+          }
+      
+          
+          .fa-image, .fa-video, .fa-location-crosshairs, .fa-face-smile{
+            padding: 15px;
+            font-size: 15px;
+            color: blue;
+          }
+             
+          span{
+            font-size: 15px;
+          }
+          .content{
+            float: left;
+            padding-top: 10px;
+            
+          }
+          .fa-thumbs-up, .fa-share{
+            font-size: 22px;
+            margin-top: 20px;
+            color: blue;
+            
+            
+          }
+      
+
+          
+            </style>

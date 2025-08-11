@@ -1,0 +1,182 @@
+<style>
+
+*{
+                box-sizing: border-box;
+            }
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .navbar{
+             display: flex;
+             justify-content: space-between;
+             background-color: dodgerblue;
+            }
+            .logo{
+                padding: 10px;
+                font-size: 35px;
+            }
+            .options a{
+                 
+                 padding: 5px;
+                 font-size: 20px;
+                 text-decoration: none;
+                 color: white;
+            }
+            .options{
+                padding: 20px;
+            }
+            .options a:hover{
+                color: #f1f1f1;
+                text-decoration: underline;
+                font-size: 20px;
+            }
+            .fa-house, .fa-user, .fa-gear, .fa-user-group{
+                padding: 5px;
+                margin: 5px;
+                color: white;
+            }
+            .nav, .logo-bar{
+                margin: 20px;
+            }
+            .profilesetting{
+                
+            }
+            .icon{
+             padding: 80px;
+                float: left;
+                margin-right: 40px;
+                color: gray;
+                
+
+            }
+
+
+.navbar{
+             display: flex;
+             justify-content: space-between;
+             background-color: dodgerblue;
+            }
+            .logo{
+                padding: 10px;
+                font-size: 35px;
+                color: white;
+                margin: 10px;
+            }
+            .options a{
+                 
+                 padding: 5px;
+                 font-size: 20px;
+                 text-decoration: none;
+                 color: white;
+            }
+            .options{
+                padding: 20px;
+            }
+            .options a:hover{
+                color: #f1f1f1;
+                text-decoration: underline;
+            }
+            .fa-house, .fa-user, .fa-gear, .fa-user-group{
+                padding: 5px;
+                margin: 5px;
+                color: white;
+            }
+            .nav, .logo-bar{
+                margin: 20px;
+            }
+           .stories {
+            display: inline-block;
+            padding: 8px;
+            background-color: white;
+        
+           }
+           .stories img{
+            border-radius: 25px;
+            box-shadow: 3px 2px 3px 2px black;
+            padding: 8px;
+           }
+           .desc{
+            border-radius: 15px;
+            text-align: center;
+            border: 1px solid dodgerblue;
+            padding: 2px;
+            margin-top: 10px;
+            font-weight: bold;
+           }
+          .post{
+            padding: 10px;
+            float: left;
+            
+            
+          }
+          .fa-image, .fa-video, .fa-location-crosshairs, .fa-face-smile{
+            padding: 20px;
+            font-size: 15px;
+            color: blue;
+          }
+          .sidebar{
+              padding: 15px;
+          }
+          ul{
+            list-style-type: none;
+        
+          }
+          li{
+            padding: 5px;
+          }
+          li a{
+            text-decoration: none;
+            
+          }
+          .sidebar{
+            float: left;
+            
+            
+            background-color: #f1f1f1;
+            padding-bottom: 480px;
+            margin-right: 40px;
+            padding-right: 150px;
+             
+          }
+          .floatright{
+          display: flex;
+          justify-content: flex-end;
+          
+         
+          
+          }
+          .switch{
+              position: relative;
+              display: inline-block;
+              width: 50px;
+              height: 24px;
+              
+          }
+          .slider{
+             position: absolute;
+             top: 0;
+             left: 0;
+             right: 0;
+             bottom: 0;
+             background-color: #ccc;
+             transition: 0.4s;
+             border-radius: 24px;
+          }
+          .slider:before{
+            position: absolute;
+            content: "";
+            width: 18px;
+            height: 18px;
+            left: 4px;
+            bottom: 3px;
+            background-color: white;
+            transition: 0.4s;
+            border-radius: 50%;
+          }
+          input:checked + .slider{
+            background-color: blue;
+          }
+          input:checked + .slider:before{
+            transform: translateX(26px);
+          }
+          </style>
