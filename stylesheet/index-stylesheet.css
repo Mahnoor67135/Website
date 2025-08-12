@@ -1,6 +1,6 @@
        
-       <style>
-*{
+            <style>
+        *{
                 box-sizing: border-box;
             }
             body{
@@ -46,41 +46,6 @@
                 
 
             }
-            
-
-         /* .navbar{
-             display: flex;
-             justify-content: space-between;
-             background-color: dodgerblue;
-            }
-            .logo{
-                padding: 10px;
-                font-size: 35px;
-                color: white;
-                margin: 10px;
-            }
-            .options a{
-                 
-                 padding: 5px;
-                 font-size: 20px;
-                 text-decoration: none;
-                 color: white;
-            }
-            .options{
-                padding: 20px;
-            }
-            .options a:hover{
-                color: #f1f1f1;
-                text-decoration: underline;
-            }
-            .fa-house, .fa-user, .fa-gear, .fa-user-group{
-                padding: 5px;
-                margin: 5px;
-                color: white;
-            }
-            .nav, .logo-bar{
-                margin: 20px;
-            }*/
            .stories {
             display: inline-block;
             padding: 8px;
@@ -123,11 +88,6 @@
           .fa-thumbs-up, .fa-share{
             font-size: 22px;
             margin-top: 20px;
-            color: blue;
-            
-            
+            color: blue;    
           }
-      
-
-          
             </style>
